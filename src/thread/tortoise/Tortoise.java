@@ -12,7 +12,7 @@ public class Tortoise extends Thread {
         this.tortoise = new Thread(this, "Tortoise");
     }
 
-    public Thread getRabbit() {
+    public Thread getTortoise() {
         return tortoise;
     }
 
